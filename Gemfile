@@ -27,5 +27,8 @@ group :test do
   gem 'vcr'
   gem 'webmock'
   gem 'capybara'
-  gem 'factory_girl'
+  # gem 'factory_girl'
+  gem 'shoulda-matchers'
+  gem 'database_cleaner'
+  gem 'launchy'
 end
